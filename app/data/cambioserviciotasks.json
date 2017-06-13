@@ -1,0 +1,235 @@
+[
+    {
+        "order": 1,
+        "responsableDefecto": [
+            {
+                "id": 12,
+                "name": "Gestión de Relaciones con el Negocio"
+            }
+        ], 
+        "desc": "{responsable}| recibe la petición de un nuevo servicio por parte del cliente.",
+        "descHtml": "",
+        "sublista": []
+    },
+    {
+        "order": 2, 
+        "responsableDefecto": [
+            {
+                "id": 12,
+                "name": "Gestión de Relaciones con el Negocio"
+            }
+        ], 
+        "desc": "{responsable}| establece con el área funcional de aplicaciones la siguiente información:",
+        "descHtml": "",
+        "sublista": [
+             {
+                "order": 1, 
+                "responsableDefecto": [], 
+                "desc": "Requisitos funcionales",
+                "descHtml": "",
+                "sublista": []
+            },
+            {
+                "order": 2, 
+                "responsableDefecto": [], 
+                "desc": "Prioridades",
+                "descHtml": "",
+                "sublista": []
+            },
+            {
+                "order": 3,
+                "responsableDefecto": [], 
+                "desc": "Tiempos",
+                "descHtml": "",
+                "sublista": []
+            }
+        ]
+    },
+    {
+        "order": 3, 
+        "responsableDefecto":[
+            {
+                "id": 21,
+                "name": "Coordinación de Diseño"
+            }
+        ], 
+        "desc": "{responsable}| define un paquete del Diseño del Servicio (SDP) inicial con los siguientes procesos:",
+        "descHtml": "",
+        "sublista": [
+            {
+                "order": 1, 
+                "responsableDefecto": [
+                    {
+                        "id": 22,
+                        "name": "Gestión de la Capacidad"
+                    },
+                    {
+                        "id": 24,
+                        "name": "Gestión de la Disponibilidad"
+                    }
+                ], 
+                "desc": "{responsable}| y {responsable}|: para definir los requisitos de capacidad y disponibilidad de cómo el nuevo servicio.",
+                "descHtml": "",
+                "sublista": []
+            },
+            {
+                "order": 2,
+                "responsableDefecto": [
+                    {
+                        "id": 25,
+                        "name": "Gestión de la Continuidad"
+                    }
+                ], 
+                "desc": "{responsable}|: para conocer el impacto o modificaciones necesarias en el Plan de Contingencia.",
+                "descHtml": "",
+                "sublista": []
+            },
+            {
+                "order": 3,
+                "responsable": [], 
+                "responsableDefecto": [
+                    {
+                        "id": 25,
+                        "name": "Gestión de la Seguridad"
+                    }
+                ], 
+                "desc": "{responsable}|: para conocer riesgos y necesidades de seguridad.",
+                "descHtml": "",
+                "sublista": []
+            },
+            {
+                "order": 4,
+                "responsable": [], 
+                "responsableDefecto": [
+                    {
+                        "id": 14,
+                        "name": "Gestión Financiera"
+                    }
+                 ], 
+                "desc": "{responsable}|: para conocer los costes del servicio.",
+                "descHtml": "",
+                "sublista": []
+            },
+            {
+                "order": 5,
+                "responsable": [], 
+                "responsableDefecto": [
+                    {
+                        "id": 26,
+                        "name": "Gestión de Proveedores"
+                    }
+                 ], 
+                "desc": "{responsable}| evalúa la necesidad de contratación externa para el desarrollo del servicio.",
+                "descHtml": "",
+                "sublista": []
+            }
+        ]
+    },
+    {
+        "order": 4,
+        "responsableDefecto": [
+            {
+                "id": 27,
+                "name": "Gestión de Niveles de Servicio"
+            }
+        ], 
+        "desc": "{responsable}| establece el Acuerdo de Nivel de Servicio con la información recopilada.",
+        "descHtml": "",
+        "sublista": []
+    },
+    {
+        "order": 5,
+        "responsableDefecto": [
+            {
+                "id": 12,
+                "name": "Gestión de Relaciones con el Negocio"
+            }
+        ], 
+        "desc": "{responsable}| confirma los niveles de servicio definidos con el cliente. Una vez confirmados se cierra el SDP final.",
+        "descHtml": "",
+        "sublista": []
+    },
+    {
+        "order": 6,
+        "responsableDefecto": [
+            {
+                "id": 31,
+                "name": "Gestión de Cambios"
+            }
+        ], 
+        "desc": "El cambio pasa al próximo CAB de |{responsable}|. Para evaluar su impacto se utiliza la CMDB.",
+        "descHtml": "",
+        "sublista": []
+    },
+    {
+        "order": 7,
+        "responsableDefecto": [
+            {
+                "id": 33,
+                "name": "Gestión de Versiones y Despliegue"
+            },
+            {
+                "id": 32,
+                "name": "Planificación y Soporte a la Transición"
+            }
+        ], 
+        "desc": "Cuando el cambio está aprobado  |{responsable}| implanta el cambio. Se coordina con |{responsable}|.",
+        "descHtml": "",
+        "sublista": []
+    },
+    {
+        "order": 8, 
+        "responsableDefecto": [
+            {
+                "id": 34,
+                "name": "Validación y Pruebas del Servicio"
+            }
+        ], 
+        "desc": "{responsable}| asegura que el un nuevo cambio cumple las especificaciones de diseño y requisitos de negocio.",
+        "descHtml": "",
+        "sublista": []
+    },
+    {
+        "order": 9,
+        "responsableDefecto": [
+            {
+                "id": 35,
+                "name": "Evaluación "
+            }
+        ], 
+        "desc": "{responsable}| revisa el rendimiento esperado del cambio en el servicio.",
+        "descHtml": "",
+        "sublista": []
+    },
+    {
+        "order": 10,
+        "responsableDefecto": [], 
+        "desc": "Si procede, una vez implantado el nuevo servicio se avisa al ServiceDesk sobre la existencia de un nuevo cambio Se le informa sobre los niveles de servicio acordados.",
+        "descHtml": "",
+        "sublista": []
+    },
+    {
+        "order": 11,
+        "responsableDefecto": [
+            {
+                "id": 36,
+                "name": "Gestión de la Configuración"
+            }
+        ], 
+        "desc": "{responsable}| actualiza la CMDB con todos los cambios.",
+        "descHtml": "",
+        "sublista": []
+    },
+    {
+        "order": 12,
+        "responsableDefecto": [
+            {
+                "id": 12,
+                "name": "Gestión de Relaciones con el Negocio"
+            }
+        ], 
+        "desc": "{responsable}| comunica al cliente la puesta en marcha del nuevo servicio.",
+        "descHtml": "",
+        "sublista": []
+    }
+]

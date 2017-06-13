@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"name": "No identificado",
+		"desc": "Las actividades se hacen de manera distinta o cada uno utiliza sus propio métodos.",
+		"color": "red"
+	},
+	{
+		"id": 2,
+		"name": "Monitorizado",
+		"desc": "Las actividades se hacen de manera similar, pero no hay procesos registrados ni definidos.",
+		"color": "pink"
+	},
+    {
+    	"id": 3,
+    	"name": "Controlado",
+    	"desc": "Existe definición y registro de los procesos y un responsable de proceso. El proceso tiene objetivos, entradas y salidas , actividades, roles y responsabilidades y tiene métricas definidas.",
+    	"color": "orange"
+    },
+    {
+    	"id": 4,
+    	"name": "Proactivo",
+    	"desc": "Existe definición de procesos, responsable de proceso, se miden con regularidad las métricas y se toman acciones correctivas.",
+    	"color": "blue"
+    },
+    {
+    	"id": 5,	
+    	"name":"Mejorado",
+    	"desc":"Existe definición de procesos, responsable de proceso, se miden con regularidad las métricas y existe una mejora continua del proceso de manera integrada en el sistema.",
+    	"color":"green"
+    }
+]

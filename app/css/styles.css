@@ -1,0 +1,288 @@
+
+/* Panel Flexs*/
+
+.row.is-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.is-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.is-flex .box {
+  background: none;
+  position: static;
+}
+.is-flex [class*="col-"] {
+  background: #fff;
+}
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .col-sm-5ths {
+    width: 20%;
+    float: left;
+    }
+  }
+@media (min-width: 992px) {
+  .col-md-5ths {
+    width: 20%;
+    float: left;
+    }
+  }
+@media (min-width: 1200px) {
+  .col-lg-5ths {
+    width: 20%;
+    float: left;
+    }
+}
+
+/* Panels styles */
+.panel-group .panel-heading {
+    border-bottom: 0;
+    height: 50px;
+}
+
+.panel-legend {
+  background-color: #EEEEEE;
+  border:  1px solid #999;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    color: inherit;
+}
+
+.panel-title-big {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.panel-darkgray {
+    border-color: #19AABF;
+}
+
+.panel-darkgray > .panel-heading {
+    
+    background-color: #19AABF;
+    border-color: #19AABF;
+    font-size: 35px;
+}
+
+.panel-red {
+    border-color: #C9302C;
+}
+
+.panel-red > .panel-heading {
+    color: #fff;
+    background-color: #C9302C;
+    border-color: #C9302C;
+}
+
+.panel-orange {
+    border-color: #EC971F;
+}
+
+.panel-orange > .panel-heading {
+    color: #fff;
+    background-color: #EC971F;
+    border-color: #EC971F;
+}
+
+.panel-pink {
+    border-color: #E238EC;
+}
+
+.panel-pink > .panel-heading {
+    color: #fff;
+    background-color: #E238EC;
+    border-color: #E238EC;
+}
+
+.panel-blue {
+    border-color: #4682B4;
+}
+
+.panel-blue > .panel-heading {
+    color: #fff;
+    background-color: #4682B4;
+    border-color: #4682B4;
+}
+
+.panel-green {
+    border-color: #449D44;
+}
+
+.panel-green > .panel-heading {
+    color: #fff;
+    background-color: #449D44;
+    border-color: #449D44;
+}
+
+
+/* Badges and Labels */
+.badge-red {
+    background-color: #C9302C;
+}
+
+.badge-pink {
+    background-color: #E238EC;
+}
+
+.badge-orange {
+    background-color: #EC971F;
+}
+
+.badge-blue {
+    background-color: #4682B4;
+}
+
+.badge-green {
+    background-color: #449D44;
+}
+
+
+.glyphicon-star-empty {
+    color: blanchedalmond;
+}
+.glyphicon-star {
+    color: #FFDD00;
+    -webkit-text-stroke-width: 2px;
+    /*-webkit-text-stroke-color: #FF7700;*/
+}
+
+.isReadonly {
+    .glyphicon-star-empty {
+        color: #000000;
+    }
+    .glyphicon-star-empty {
+        color: #DCDCDC;
+        -webkit-text-stroke-width: 2px;
+        /*-webkit-text-stroke-color: #000000;*/
+    }
+}
+
+.glyphicon-shadow-big {
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 25px;
+}
+
+.message-error {
+  display: block;
+  font-size: 12px;
+  color: #A94442;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.cursor-pinter {
+  cursor:pointer;
+}
+
+/* Tooltip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Menu Bar*/
+.navbar-default {
+    background-color: #EEEEEE;
+    border-bottom: 6px solid #19AABF;
+}
+
+
+/* Buttons */
+.btn-danger {
+    color: #fff;
+    background-color: #EA291C;
+    border-color: #EA291C;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #19AABF;
+    border-color: #19AABF;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #EEEEEE;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+
+/* Labels */
+.label-legend {
+  display: inline-block;
+  width: 139px;
+}
+
+/* Lists */
+
+.list-group-item {
+    display: list-item;
+}
+
+/* Margins */
+.margin-right {
+    margin-right: 20px;
+}
+
+/* Dialog */
+
+.bootstrap-dialog.type-default .modal-header {
+    background-color: #19AABF;
+}
+
+.bootstrap-dialog.type-default .bootstrap-dialog-title {
+  color: #FFF;
+}
+
+.guide-dialog .modal-dialog{
+  width: 642px;
+  height: 401px;
+}
+
+.guide-dialog .modal-body{
+  padding: 0px;
+}

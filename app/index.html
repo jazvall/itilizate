@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <title>Itilízate</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  
+
+  <script src="bower_components/angular.min.js"></script>
+  <script src="bower_components/angular-route.min.js"></script>
+  <script src="bower_components/ui-bootstrap-tpls-0.12.0.min.js"></script>
+  <script src="bower_components/jquery.min.js"></script>
+  <script src="bower_components/bootstrap.min.js"></script>
+  <script src="bower_components/bootstrap-dialog.min.js"></script>
+  <script src="bower_components/underscore-1.8.3.js"></script>
+
+  <script src="js/app.js"></script>
+  <script src="js/factories.js"></script>
+  <script src="js/welcomeController.js"></script>
+  <script src="js/processController.js"></script>
+  <script src="js/tasksResumeController.js"></script>
+  <!-- Generar pdf -->
+  <script src='build/pdfmake.min.js'></script>
+  <script src='build/vfs_fonts.js'></script>
+
+  <link rel="stylesheet" href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-dialog.min.css">
+  <link href='css/styles.css' rel='stylesheet' type='text/css'>
+  
+
+</head>
+<body ng-app="app">
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Itilízate</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#/welcome"><img class="img-center" src="images/logoletra.png" alt="Itilízate" title="Itilízate"></a>
+      </div>
+           
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav">
+            <li>
+              <a href="#!user-guide">Ayuda</a>
+            </li>
+            <li>
+              <a href="#!">¿Quiénes somos?</a>
+            </li>
+          </ul>
+        </div>
+            
+    </div>
+       
+  </nav>
+    
+  <div>
+    <div ng-view></div>
+  </div>
+
+  <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Itilízate WEB - Jorge Aranda Zarzuela</p>
+      </div>
+  </footer>
+
+</body>
+
+</html>

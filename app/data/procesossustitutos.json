@@ -1,0 +1,3447 @@
+[
+  {
+    "id": 11,
+    "sustitutos": [
+      {
+        "id": 15,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "sustitutos": [
+      {
+        "id": 11,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "sustitutos": [
+      {
+        "id": 11,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "sustitutos": [
+      {
+        "id": 11,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "sustitutos": [
+      {
+        "id": 11,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "sustitutos": [
+      {
+        "id": 28,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "sustitutos": [
+      {
+        "id": 21,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "sustitutos": [
+      {
+        "id": 21,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "sustitutos": [
+      {
+        "id": 21,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "sustitutos": [
+      {
+        "id": 21,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "sustitutos": [
+      {
+        "id": 21,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "sustitutos": [
+      {
+        "id": 28,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 28,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "sustitutos": [
+      {
+        "id": 15,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 15,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 27,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 21,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 11,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 22,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 13,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 12,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 26,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 14,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 24,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 23,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 25,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "sustitutos": [
+      {
+        "id": 32,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "sustitutos": [
+      {
+        "id": 31,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "sustitutos": [
+      {
+        "id": 31,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "sustitutos": [
+      {
+        "id": 35,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "sustitutos": [
+      {
+        "id": 34,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "sustitutos": [
+      {
+        "id": 31,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 37,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "sustitutos": [
+      {
+        "id": 36,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 36,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 31,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 32,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 33,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 34,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 35,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "sustitutos": [
+      {
+        "id": 42,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 45,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 43,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 42,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 45,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 43,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 44,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 42,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 45,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 43,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 44,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 44,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 42,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 45,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 43,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 44,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "sustitutos": [
+      {
+        "id": 41,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 43,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 41,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 43,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 45,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 41,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 43,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 45,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 45,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 44,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 44,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 44,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 41,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 43,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 45,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 44,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "sustitutos": [
+      {
+        "id": 42,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 41,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 45,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 42,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 41,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 45,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 44,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 42,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 41,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 45,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 44,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 44,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 42,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 41,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 45,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 44,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "sustitutos": [
+      {
+        "id": 42,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 42,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 43,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 41,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 43,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 41,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 45,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 42,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 43,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 41,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 45,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 45,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 42,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 43,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 41,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 45,
+        "nivelMadurez": 2
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "sustitutos": [
+      {
+        "id": 41,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 43,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 42,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 41,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 43,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 42,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 44,
+        "nivelMadurez": 5
+      },
+      {
+        "id": 41,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 43,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 42,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 44,
+        "nivelMadurez": 4
+      },
+      {
+        "id": 44,
+        "nivelMadurez": 3
+      },
+      {
+        "id": 41,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 43,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 42,
+        "nivelMadurez": 2
+      },
+      {
+        "id": 44,
+        "nivelMadurez": 2
+      }
+    ]
+  }
+]

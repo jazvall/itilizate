@@ -1,0 +1,99 @@
+<div class="container" style="padding-top: 100px">
+	<form name="form" ng-submit="submitForm()" novalidate>
+		
+		<div class="row">
+			<h2>1. ¿Qué tienes en tu empresa?</h2>
+			<p> Indicar el nivel de madurez de los procesos de los que dispones en tu empresa y su responsable en caso de que dicho campo sea requerido.</p>
+			<p>El nivel de madurez tiene 5 posibles valores: </p>
+			
+			<div class="panel panel-legend">
+				<div class="panel-body">
+				
+					<div class="row" ng-repeat="nivel in nivelesMadurez">
+						<div class="col-xs-4 col-sm-2" style="width: 155px;">
+					     	<angular-star-rating max="maxValue" value='nivel.id'  hover='changeOnHover' is-readonly='isReadonly'></angular-star-rating>
+					     </div>
+					     <div class="col-xs-4 col-sm-2" style="width: 155px; margin-bottom: 25px;">
+					     <span class="label-legend label badge-{{nivel.color}}">Nivel {{nivel.id}} - {{nivel.name}}</span>
+					     </div>
+					     <div class="col-xs-4 col-sm-8">
+							
+							<span class="small">{{nivel.desc}}</span>
+						</div>
+						
+					</div>
+				</div>
+
+			</div>
+
+			<div class="panel-group" ng-repeat="cicloVida in ciclosVida" style="padding: 10px 0px 10px 0px;">
+				<div class="panel panel-darkgray">
+				   
+				    <div class="panel-heading cursor-pinter" ng-click="cicloVida.isCollapsed= !cicloVida.isCollapsed"
+				    popover="{{cicloVida.desc}}" popover-trigger="mouseenter" popover-placement="top" popover-append-to-body="true" popover-title="{{cicloVida.name}}">
+				        <h6 class="panel-title-big">
+				        	<span>{{cicloVida.name}}
+				        		<i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': cicloVida.isCollapsed, 'glyphicon-chevron-right': !cicloVida.isCollapsed}"></i>
+				        	</span>
+				        </h6>
+				    </div>
+				    
+				    <div id="collapse{{cicloVida.id}}" class="panel-collapse collapse" collapse="cicloVida.isCollapsed">
+				       
+				        <div class="panel-body">
+				        	<div class="row is-flex">
+				        		<div ng-repeat="proceso in cicloVida.procesos" class="col-md-5ths col-lg-5ths col-xs-6 col-sm-4" style="padding-bottom: 20px;">
+				                    
+				                    <div class="panel panel-{{getGradoMadurezColor(proceso.nivelMadurez)}}">
+									    
+									    <div class="panel-heading cursor-pinter" ng-click="proceso.isCollapsed= !proceso.isCollapsed"
+									    popover="{{proceso.desc}}" popover-trigger="mouseenter" popover-placement="top" popover-append-to-body="true" popover-title="{{proceso.name}}">
+									      <h4 class="panel-title">{{proceso.name}}</h4>
+									    </div>
+									   
+									    <div class="panel-body" collapse="proceso.isCollapsed">
+									    	<div class="row" style="padding: 0px 20px 0px 20px;">
+									    	<label style="font-size: 12px;">Nivel de madurez: <!--<span class="badge badge-{{getGradoMadurezColor(proceso.nivelMadurez)}}">{{proceso.nivelMadurez}}</span>--></label>
+									    	
+									    	</div>
+									    	<div class="row" style="padding: 0px 20px 5px 20px;">
+										    	<angular-star-rating max="maxValue" value='proceso.nivelMadurez'  hover='changeOnHover' is-readonly='isReadonly'></angular-star-rating>
+										    </div>
+										    
+											<div class="input-group" ng-show="proceso.nivelMadurez > 2"  ng-class="{ 'has-error' : !proceso.responsable != '' }">
+										    	<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+										   	 	<input id="responsable{{proceso.id}}" type="text" class="form-control input-sm" name="{{proceso.id}}" placeholder="Responsable" ng-model="proceso.responsable" ng-required="proceso.nivelMadurez > 2"></input> 
+										   	 	
+										  	</div>
+										  	<p ng-show="proceso.nivelMadurez > 2 && !proceso.responsable != ''" class="message-error">Campo obligatorio</p>
+										 </div>
+
+				                	</div>
+
+				        		</div>
+				        	</div>
+				     	</div>
+				    </div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="row">
+			<h2>2. ¿Qué flujo de actividad necesitas?</h2>
+			<p> Selecciona la operación que quieres llevar a cabo</p>
+			
+			<button type="submit" class="btn btn-info btn-lg margin-right" ng-click="operation=1">
+				<span class="glyphicon glyphicon-open"></span> Nuevo servicio
+			</button>
+			<button type="submit" class="btn btn-info btn-lg margin-right" ng-click="operation=2">
+				<span class="glyphicon glyphicon-transfer"></span> Cambio de servicio
+			</button>
+			<button type="submit" class="btn btn-info btn-lg" ng-click="operation=3">
+				<span class="glyphicon glyphicon-retweet"></span> Restauración del servicio
+			</button>
+		</div>   
+
+	</form>
+</div>
