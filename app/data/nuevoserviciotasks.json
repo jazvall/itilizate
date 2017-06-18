@@ -65,7 +65,7 @@
                 "name": "Coordinación de Diseño"
             }
         ], 
-        "desc": "{responsable}| define un paquete del Diseño del Servicio (SDP) inicial con los siguientes procesos:",
+        "desc": "{responsable}| define un paquete del Diseño del Servicio (SDP) inicial con la participación de los siguientes procesos:",
         "descHtml": "",
         "sublista": [
             {
@@ -80,7 +80,7 @@
                         "name": "Gestión de la Disponibilidad"
                     }
                 ], 
-                "desc": "{responsable}| y {responsable}|: para definir los requisitos de capacidad y disponibilidad de cómo el nuevo servicio.",
+                "desc": "{responsable}| y {responsable}|: para definir los requisitos específicos de esas áreas en el nuevo servicio.",
                 "descHtml": "",
                 "sublista": []
             },
@@ -92,7 +92,7 @@
                         "name": "Gestión de la Continuidad"
                     }
                 ], 
-                "desc": "{responsable}|: para conocer el impacto o modificaciones necesarias en el Plan de Contingencia.",
+                "desc": "{responsable}|: para conocer el impacto y modificaciones necesarias a realizar en el Plan de Contingencia",
                 "descHtml": "",
                 "sublista": []
             },
@@ -105,7 +105,7 @@
                         "name": "Gestión de la Seguridad"
                     }
                 ], 
-                "desc": "{responsable}|: para conocer riesgos y necesidades de seguridad.",
+                "desc": "{responsable}|: para conocer los riesgos, salvaguardas y necesidades en el área de la seguridad.",
                 "descHtml": "",
                 "sublista": []
             },
@@ -145,7 +145,7 @@
                 "name": "Gestión de Niveles de Servicio"
             }
         ], 
-        "desc": "{responsable}| establece el Acuerdo de Nivel de Servicio con la información recopilada.",
+        "desc": "{responsable}| establece el acuerdo de niveles del servicio (denominado SLA) con toda la información disponible..",
         "descHtml": "",
         "sublista": []
     },
@@ -157,7 +157,7 @@
                 "name": "Gestión de Relaciones con el Negocio"
             }
         ], 
-        "desc": "{responsable}| confirma los niveles de servicio definidos con el cliente. Una vez confirmados se cierra el SDP final.",
+        "desc": "{responsable}| confirma con el cliente los niveles de servicio definidos. Una vez confirmados se cierra el paquete de diseño de servicio final",
         "descHtml": "",
         "sublista": []
     },
@@ -165,11 +165,15 @@
         "order": 7,
         "responsableDefecto": [
             {
+                "id": 15,
+                "name": "Gestión del portfolio de servicio"
+            },
+            {
                 "id": 28,
                 "name": "Gestión del catálogo de Servicios"
             }
         ], 
-        "desc": "{responsable}| integra el nuevo servicio en el portafolio. Esto implica a Catálogo de Servicios.",
+        "desc": "{responsable}| integra el nuevo servicio en el portafolio de la organización. Esto implica también a |{responsable}| para  actualizar el catálogo.",
         "descHtml": "",
         "sublista": []
     },
@@ -181,7 +185,7 @@
                 "name": "Planificación y Soporte de Transición"
             }
         ], 
-        "desc": "Durante el desarrollo del servicio y dependiendo del plan de proyecto, se realizarán una serie de cambios en los servicios actuales. |{responsable}| genera el plan de trabajo para dichos cambios.",
+        "desc": "Durante el desarrollo del servicio y dependiendo del plan de proyecto establecido, serán necesarios una serie de cambios en los servicios actuales. |{responsable}| genera el plan de trabajo para dichos cambios.",
         "descHtml": "",
         "sublista": []
     },
@@ -224,7 +228,7 @@
                         "name": "Gestión de la Disponibilidad"
                     }
                 ], 
-                "desc": "{responsable}|, |{responsable}| y |{responsable}|.",
+                "desc": "{responsable}|, |{responsable}| y |{responsable}| para analizar cómo afecta a sus áreas.",
                 "descHtml": "",
                 "sublista": []
             },
@@ -237,7 +241,7 @@
                         "name": "Gestión de la configuración y activos del servicio"
                     }
                 ], 
-                "desc": "Para analizar dichos impacto |{responsable}| analiza la CMDB.",
+                "desc": "Para analizar dichos impactos |{responsable}| analiza la CMDB.",
                 "descHtml": "",
                 "sublista": []
             }
@@ -263,7 +267,7 @@
                 "name": "Validación y Pruebas del Servicio"
             }
         ], 
-        "desc": "{responsable}| asegura que el un nuevo cambio cumple las especificaciones de diseño y requisitos de negocio.",
+        "desc": "{responsable}| asegura que el un nuevo cambio cumple las especificaciones de diseño y requisitos establecidos para el negocioo.",
         "descHtml": "",
         "sublista": []
     },
@@ -282,7 +286,7 @@
     {
         "order": 13,
         "responsableDefecto": [], 
-        "desc": "Una vez implantado el nuevo servicio se avisa al ServiceDesk sobre la existencia de un nuevo servicio. Se le informa sobre los niveles de servicio acordados.",
+        "desc": "Una vez implantado el nuevo servicio se avisa al <strong>ServiceDesk</strong> sobre la existencia de un nuevo servicio y los procedimientos de actuación oportunos. Se le informa sobre los niveles de servicio acordados.",
         "descHtml": "",
         "sublista": []
     },
@@ -306,7 +310,7 @@
                 "name": "Gestión del Catálogo de servicios"
             }
         ], 
-        "desc": "{responsable}| actualiza el Catálogo de Servicios.",
+        "desc": "{responsable}| actualiza el catálogo de servicios con las modificaciones correspondientes.",
         "descHtml": "",
         "sublista": []
     },
@@ -318,7 +322,7 @@
                 "name": "Gestión de Relaciones con el Negocio"
             }
         ], 
-        "desc": "{responsable}| comunica al cliente la puesta en marcha del nuevo servicio.",
+        "desc": "{responsable}| comunica al cliente, de manera oficial, la puesta en marcha del nuevo servicio.",
         "descHtml": "",
         "sublista": []
     }

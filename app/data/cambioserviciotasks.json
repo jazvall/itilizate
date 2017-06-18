@@ -19,7 +19,7 @@
                 "name": "Gestión de Relaciones con el Negocio"
             }
         ], 
-        "desc": "{responsable}| establece con el área funcional de aplicaciones la siguiente información:",
+        "desc": "{responsable}| establece con los grupos funcionales de las aplicaciones la siguiente información:",
         "descHtml": "",
         "sublista": [
              {
@@ -53,7 +53,7 @@
                 "name": "Coordinación de Diseño"
             }
         ], 
-        "desc": "{responsable}| define un paquete del Diseño del Servicio (SDP) inicial con los siguientes procesos:",
+        "desc": "{responsable}| define un paquete del diseño del servicio (denominado SDP) inicial con los siguientes procesos:",
         "descHtml": "",
         "sublista": [
             {
@@ -68,7 +68,7 @@
                         "name": "Gestión de la Disponibilidad"
                     }
                 ], 
-                "desc": "{responsable}| y {responsable}|: para definir los requisitos de capacidad y disponibilidad de cómo el nuevo servicio.",
+                "desc": "{responsable}| y {responsable}|: para definir los requisitos de sus respectivas áreas del cambio del servicio.",
                 "descHtml": "",
                 "sublista": []
             },
@@ -80,7 +80,7 @@
                         "name": "Gestión de la Continuidad"
                     }
                 ], 
-                "desc": "{responsable}|: para conocer el impacto o modificaciones necesarias en el Plan de Contingencia.",
+                "desc": "{responsable}|: para conocer el impacto y modificaciones necesarias en el Plan de Contingencia.",
                 "descHtml": "",
                 "sublista": []
             },
@@ -93,7 +93,7 @@
                         "name": "Gestión de la Seguridad"
                     }
                 ], 
-                "desc": "{responsable}|: para conocer riesgos y necesidades de seguridad.",
+                "desc": "{responsable}|: para conocer riesgos, salvaguardas y necesidades del plan de seguridad.",
                 "descHtml": "",
                 "sublista": []
             },
@@ -106,7 +106,7 @@
                         "name": "Gestión Financiera"
                     }
                  ], 
-                "desc": "{responsable}|: para conocer los costes del servicio.",
+                "desc": "{responsable}|: para conocer los costes del cambio de servicio.",
                 "descHtml": "",
                 "sublista": []
             },
@@ -119,7 +119,7 @@
                         "name": "Gestión de Proveedores"
                     }
                  ], 
-                "desc": "{responsable}| evalúa la necesidad de contratación externa para el desarrollo del servicio.",
+                "desc": "{responsable}| evalúa la necesidad de contratación externa para el desarrollo de los cambios del servicio.",
                 "descHtml": "",
                 "sublista": []
             }
@@ -133,7 +133,7 @@
                 "name": "Gestión de Niveles de Servicio"
             }
         ], 
-        "desc": "{responsable}| establece el Acuerdo de Nivel de Servicio con la información recopilada.",
+        "desc": "{responsable}| evalúa y verifica si es necesario modificar el Acuerdo de Nivel de Servicio (denominado SLA) con toda la información disponible.",
         "descHtml": "",
         "sublista": []
     },
@@ -145,7 +145,7 @@
                 "name": "Gestión de Relaciones con el Negocio"
             }
         ], 
-        "desc": "{responsable}| confirma los niveles de servicio definidos con el cliente. Una vez confirmados se cierra el SDP final.",
+        "desc": "{responsable}| cconfirma con el cliente los niveles de servicio definidos. Una vez confirmados se cierra el paquete final de diseño del servicio.",
         "descHtml": "",
         "sublista": []
     },
@@ -157,7 +157,7 @@
                 "name": "Gestión de Cambios"
             }
         ], 
-        "desc": "El cambio pasa al próximo CAB de |{responsable}|. Para evaluar su impacto se utiliza la CMDB.",
+        "desc": "El cambio pasa al próximo CAB de |{responsable}|. Para evaluar su impacto se consulta la CMDB.",
         "descHtml": "",
         "sublista": []
     },
@@ -173,7 +173,7 @@
                 "name": "Planificación y Soporte a la Transición"
             }
         ], 
-        "desc": "Cuando el cambio está aprobado  |{responsable}| implanta el cambio. Se coordina con |{responsable}|.",
+        "desc": "Cuando el cambio está aprobado  |{responsable}| lo implanta. Se coordina con |{responsable}|.",
         "descHtml": "",
         "sublista": []
     },
@@ -185,7 +185,7 @@
                 "name": "Validación y Pruebas del Servicio"
             }
         ], 
-        "desc": "{responsable}| asegura que el un nuevo cambio cumple las especificaciones de diseño y requisitos de negocio.",
+        "desc": "{responsable}| asegura que el nuevo cambio cumple las especificaciones de diseño y requisitos establecidoso.",
         "descHtml": "",
         "sublista": []
     },
@@ -197,14 +197,14 @@
                 "name": "Evaluación "
             }
         ], 
-        "desc": "{responsable}| revisa el rendimiento esperado del cambio en el servicio.",
+        "desc": "{responsable}| revisa el rendimiento del cambio en el servicio.",
         "descHtml": "",
         "sublista": []
     },
     {
         "order": 10,
         "responsableDefecto": [], 
-        "desc": "Si procede, una vez implantado el nuevo servicio se avisa al ServiceDesk sobre la existencia de un nuevo cambio Se le informa sobre los niveles de servicio acordados.",
+        "desc": "Si procede, una vez implantado el nuevo servicio se avisa al <strong>ServiceDesk</strong> sobre la existencia de un nuevo cambio, los procedimientos oportunos y los niveles de servicio acordados.",
         "descHtml": "",
         "sublista": []
     },
@@ -216,7 +216,7 @@
                 "name": "Gestión de la Configuración"
             }
         ], 
-        "desc": "{responsable}| actualiza la CMDB con todos los cambios.",
+        "desc": "{responsable}| actualiza la CMDB con todos los cambios realizados.",
         "descHtml": "",
         "sublista": []
     },
@@ -228,7 +228,7 @@
                 "name": "Gestión de Relaciones con el Negocio"
             }
         ], 
-        "desc": "{responsable}| comunica al cliente la puesta en marcha del nuevo servicio.",
+        "desc": "{responsable}| comunica al cliente, de manera oficial, la puesta en marcha del cambio de servicio.",
         "descHtml": "",
         "sublista": []
     }

@@ -1,23 +1,24 @@
-<div class="container" style="padding-top: 100px">
-<span ng-init="#myModal></span>
+<div class="container container-padding">
+	
 	<div class="row">
 		<h2><strong>{{title}}</strong></h2>
 		<p> Siguiendo las recomendaciones de ITIL, a continuación se muestra la secuencia correcta de las tareas y el proceso responsable de su ejecución.</p>
 	</div>
-	<div class="row" style="margin: 20px;">
-		<div class="col-xs-12">
-			<ol class="list-group">
-				<li class="list-group-item" ng-repeat="task in tasksFlow">
-					<p><div ng-bind-html="task.descHtml"></div></p>
-					<ul  ng-repeat="subtask in task.sublista">
-					    <li><div ng-bind-html="subtask.descHtml"></div></li>
-					</ul>
-				</li>
-			</ol>
-		</div>
+
+	<div class="row">
+		<ol class="list-group">
+			<li class="list-group-item" ng-repeat="task in tasksFlow">
+				<p><div ng-bind-html="task.descHtml"></div></p>
+				<ul  ng-repeat="subtask in task.sublista">
+				    <li><div ng-bind-html="subtask.descHtml"></div></li>
+				</ul>
+			</li>
+		</ol>
 	</div>
+
 	<div class="row text-center">
 		<button class="btn btn-info btn-lg margin-right" ng-click="back();"><span class="glyphicon glyphicon-arrow-left"></span> Volver</button>
 		<button class="btn btn-info btn-lg margin-right" ng-click="download();"><span class="glyphicon glyphicon-download-alt"></span> Descargar</button>
 	</div>
+	
 </div>

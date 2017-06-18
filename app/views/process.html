@@ -1,6 +1,9 @@
-<div class="container" style="padding-top: 100px">
+<div class="container container-padding">
+	<div class="row div-button-help">
+		<button ng-click="showVideoHelp()" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-play"></span> Ver video de ayuda</button>
+	</div>
 	<form name="form" ng-submit="submitForm()" novalidate>
-		
+
 		<div class="row">
 			<h2>1. ¿Qué tienes en tu empresa?</h2>
 			<p> Indicar el nivel de madurez de los procesos de los que dispones en tu empresa y su responsable en caso de que dicho campo sea requerido.</p>
@@ -62,7 +65,7 @@
 										    
 											<div class="input-group" ng-show="proceso.nivelMadurez > 2"  ng-class="{ 'has-error' : !proceso.responsable != '' }">
 										    	<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-										   	 	<input id="responsable{{proceso.id}}" type="text" class="form-control input-sm" name="{{proceso.id}}" placeholder="Responsable" ng-model="proceso.responsable" ng-required="proceso.nivelMadurez > 2"></input> 
+										   	 	<input id="responsable{{proceso.id}}" type="text" class="form-control input-sm" name="{{proceso.id}}" placeholder="Responsable" ng-model="proceso.responsable" ng-required="proceso.nivelMadurez > 2" show-focus="proceso.nivelMadurez > 2"></input> 
 										   	 	
 										  	</div>
 										  	<p ng-show="proceso.nivelMadurez > 2 && !proceso.responsable != ''" class="message-error">Campo obligatorio</p>

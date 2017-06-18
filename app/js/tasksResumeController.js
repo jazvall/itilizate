@@ -227,7 +227,7 @@ app.controller('TasksResumeController', function($scope, $sce, ciclosVidaService
     // Función para regresar a la pantalla anterior.
     $scope.back = function() {
     	// Almacenamos el estado de los ciclos de vida y reseteamos el código de operación
-		ciclosVidaService.set($scope.ciclosVida,0);
+		ciclosVidaService.set($scope.ciclosVida,0,"tasks-resume");
 		// Redirigimos a la página de procesos
 		window.location = "#!process";
 	}

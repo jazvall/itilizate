@@ -20,6 +20,7 @@
   <script src="js/welcomeController.js"></script>
   <script src="js/processController.js"></script>
   <script src="js/tasksResumeController.js"></script>
+  <script src="js/userGuideController.js"></script>
   <!-- Generar pdf -->
   <script src='build/pdfmake.min.js'></script>
   <script src='build/vfs_fonts.js'></script>
@@ -27,7 +28,9 @@
   <link rel="stylesheet" href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-dialog.min.css">
   <link href='css/styles.css' rel='stylesheet' type='text/css'>
-  
+
+  <!--favicon.ico-->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
 </head>
 <body ng-app="app">
@@ -41,16 +44,19 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#/welcome"><img class="img-center" src="images/logoletra.png" alt="Itilízate" title="Itilízate"></a>
+        <a class="navbar-brand" href="#/welcome"><img class="img-center" src="images/logo.png" alt="Itilízate" title="Itilízate"></a>
       </div>
            
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
          <ul class="nav navbar-nav">
             <li>
+              <a href="#!itil-guide">ITIL</a>
+            </li>
+            <li>
               <a href="#!user-guide">Ayuda</a>
             </li>
             <li>
-              <a href="#!">¿Quiénes somos?</a>
+              <a href="#!info">¿Quiénes somos?</a>
             </li>
           </ul>
         </div>
@@ -65,7 +71,7 @@
 
   <footer class="footer">
       <div class="container">
-        <p class="text-muted">Itilízate WEB - Jorge Aranda Zarzuela</p>
+        <p class="text-muted">Itilízate WEB ~ <em>jazvall</em></p>
       </div>
   </footer>
 

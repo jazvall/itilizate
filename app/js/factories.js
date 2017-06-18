@@ -56,16 +56,21 @@ app.factory('procesosSustitutos', function($http){
 app.factory('ciclosVidaService', function() {
 	var savedData = {
 	 	ciclosVida: [],
-	 	operation: 0
+	 	operation: 0,
+        originView: ""
 	};
 		
 	return {
-		set: function(ciclosVida, operation) {
+		set: function(ciclosVida, operation, originView) {
 			savedData.ciclosVida = ciclosVida;
 			savedData.operation = operation;
+            savedData.originView = originView;
 		},
 		 get: function() {
 		    return savedData;
-		}
+		},
+        setOriginView: function(originView) {
+            savedData.originView = originView;
+        },
 	}
 });

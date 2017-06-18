@@ -2,7 +2,7 @@
     {
         "order": 1,
         "responsableDefecto": [], 
-        "desc": "El ServiceDesk recibe la incidencia a través de un usuario.",
+        "desc": "El <strong>ServiceDesk</strong> recibe la incidencia a través de los usuarios.",
         "descHtml": "",
         "sublista": []
     },
@@ -14,7 +14,7 @@
                 "name": "Gestión de la Configuración"
             }
         ], 
-        "desc": "El ServiceDesk intenta restaurar el servicio en la actividad de “soporte inicial”; para ello, necesita acceder a la CMDB a través de |{responsable}|.",
+        "desc": "El <strong>ServiceDesk</strong> como soporte incial, intenta restaurar el servicio, para ello, necesita acceder a la CMDB a través de  |{responsable}|.",
         "descHtml": "",
         "sublista": []
     },
@@ -26,7 +26,7 @@
                 "name": "Gestión de relaciones con el negocio"
             }
         ], 
-        "desc": "Si no puede restaurar el servicio, y dependiendo del impacto de la incidencia, informa a la |{responsable}| , para que gestione la relación con el cliente.",
+        "desc": "Si no puede restaurar el servicio, y dependiendo del impacto de la incidencia, informa a |{responsable}| , para que gestione e informe el cliente.",
         "descHtml": "",
         "sublista": []
     },
@@ -38,7 +38,7 @@
                 "name": "Gestión de Incidencias"
             }
         ], 
-        "desc": "Al no poder restaurar el servicio, pasa la incidencia a la actividad de 'investigación y diagnóstico' de  |{responsable}|.",
+        "desc": "Al no poder restaurar el servicio, la incidencia pasa a la fase de investigación y diagnóstico que realiza  |{responsable}|.",
         "descHtml": "",
         "sublista": []
     },
@@ -50,7 +50,7 @@
                 "name": "Gestión de Incidencias"
             }
         ], 
-        "desc": "{responsable}| también accede a la CMDB para restaurar el servicio.",
+        "desc": "{responsable}| también accede a la CMDB para intentar restaurar el servicio.",
         "descHtml": "",
         "sublista": []
     },
@@ -58,15 +58,11 @@
         "order": 6,
         "responsableDefecto": [
             {
-                "id": 41,
-                "name": "Gestión de Incidencias"
-            },
-            {
                 "id": 45,
                 "name": "Gestión de Problemas"
             }
         ], 
-         "desc": "Si |{responsable}| no puede restaurar el servicio, se abre un problema en |{responsable}| para averiguar la causa raíz (es posible que también acceda a la CMDB –no mostrado en el dibujo).",
+         "desc": "Si no puede restaurar el servicio, se abre un problema a |{responsable}| para averiguar la causa raíz.",
         "descHtml": "",
         "sublista": []
     },
@@ -82,7 +78,7 @@
                 "name": "Gestión de Cambios"
             }
         ], 
-         "desc": "{responsable}|  averigua la causa raíz y la solución. Para aplicar la solución emite una solicitud de cambio a la  |{responsable}|.",
+         "desc": "{responsable}| averigua la causa raíz y obtiene la solución al problema. Para aplicar la solución correspondiente genera una solicitud de cambio a |{responsable}|.",
         "descHtml": "",
         "sublista": []
     },
@@ -94,7 +90,7 @@
                 "name": "Gestión de Cambios"
             }
         ], 
-        "desc": "{responsable}| organiza un CAB. A este CAB acuden:",
+        "desc": "{responsable}| organiza un CAB. A este CAB es necesario que acudan:",
         "descHtml": "",
         "sublista": [
             {
@@ -121,7 +117,7 @@
                         "name": "Gestión de la Disponibilidad"
                     }
                 ], 
-                "desc": "{responsable}| y |{responsable}| para informar del impacto del cambio en la capacidad y disponibilidad, y continuidad respectivamente.",
+                "desc": "{responsable}| y |{responsable}| para informar del impacto del cambio en sus respectivas áreas.",
                 "descHtml": "",
                 "sublista": []
             },
@@ -134,7 +130,7 @@
                         "name": "Gestión Financiera"
                     }
                  ], 
-                "desc": "{responsable}|, para informar del impacto económico del cambio",
+                "desc": "{responsable}| para informar del impacto económico que supone el cambio.",
                 "descHtml": "",
                 "sublista": []
             }
@@ -148,7 +144,7 @@
                 "name": "Gestión de la Configuración"
             }
         ], 
-        "desc": "Para analizar dichos impacto |{responsable}| analiza la CMDB.",
+        "desc": "Para analizar dichos impactos |{responsable}| analiza la CMDB.",
         "descHtml": "",
         "sublista": []
     },
@@ -164,7 +160,7 @@
                 "name": "Planificación y Soporte a la Transición"
             }
         ], 
-        "desc": "Una vez aprobado el cambio, |{responsable}| realiza las instalaciones necesarias. Se coordina con |{responsable}|.",
+        "desc": "Una vez aprobado el cambio, |{responsable}| realiza las actuaciones necesarias. Se coordina con |{responsable}|.",
         "descHtml": "",
         "sublista": []
     },
@@ -176,7 +172,7 @@
                 "name": "Validación y Pruebas del Servicio"
             }
         ], 
-        "desc": "{responsable}| asegura que el un nuevo cambio cumple las especificaciones de diseño y requisitos de negocio.",
+        "desc": "{responsable}| asegura que el un nuevo cambio cumple las especificaciones de diseño y requisitos de negocio esperadas y acordadas.",
         "descHtml": "",
         "sublista": []
     },
@@ -188,7 +184,7 @@
                 "name": "Evaluación"
             }
         ], 
-       "desc": "{responsable}| revisa el rendimiento esperado del cambio en el servicio.",
+       "desc": "{responsable}| revisa el rendimiento del cambio en el servicio.",
         "descHtml": "",
         "sublista": []
     },
@@ -200,7 +196,7 @@
                 "name": "Gestión de Relaciones con el Negocio"
             }
         ], 
-        "desc": "Una vez que el cambio está instalado, la causa raíz del problema se habrá eliminado y el servicio restaurado. Se avisa al ServiceDesk para que cierre la incidencia, en comunicación con el cliente por parte de |{responsable}|.",
+        "desc": "Una vez que el cambio está implementado, la causa raíz del problema se habrá eliminado y el servicio estará restaurado. Se informa al <strong>ServiceDesk</strong> para que proceda al cierre de la incidencia, en comunicación constante con el cliente por parte de |{responsable}|.",
         "descHtml": "",
         "sublista": []
     },
@@ -212,7 +208,7 @@
                 "name": "Gestión de la Configuración"
             }
         ], 
-        "desc": "{responsable}| actualiza la CMDB con los cambios realizados.",
+        "desc": "{responsable}| actualiza la CMDB con los cambios que han sido realizados.",
         "descHtml": "",
         "sublista": []
     }

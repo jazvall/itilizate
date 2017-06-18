@@ -8,7 +8,11 @@ app.controller('ProcessController', function($scope, $http, $sce, ciclosVida, ni
 
   // Obtenemos los ciclos de vida. Primero comprobamos lo almacenado en sesión antes de cargarlo del json
   // por si viniéramos desde la ventana del listado de tareas
-	$scope.ciclosVida = ciclosVidaService.get().ciclosVida;
+  var ciclosVidaObject = ciclosVidaService.get();
+  var originView = ciclosVidaObject.originView;
+	$scope.ciclosVida = ciclosVidaObject.ciclosVida;
+
+  
 
 	if ($scope.ciclosVida.length == 0) {
 		ciclosVida.list(function(ciclosVida) {
@@ -27,14 +31,35 @@ app.controller('ProcessController', function($scope, $http, $sce, ciclosVida, ni
   $scope.maxValue = 5; 
 
 
-  // Mostramos un modal panel nada más entrar en la aplicación con un video de ayuda para el uso de la aplicación
-  BootstrapDialog.show({
-    title: 'Guía Rápida de Usuario',
-    type: BootstrapDialog.TYPE_DEFAULT,
-    cssClass: 'guide-dialog',
-    closable: true,
-    message: 'Espera unos segunditos... y ¡dale al play!</br><iframe width="640" height="401" src="http://www.powtoon.com/embed/fMb9KeISNYs/" frameborder="0"></iframe>',
-  });
+   // Función que muestra un modal panel con el video de ayuda del uso de la app
+  $scope.showVideoHelp = function(windowR) {
+   BootstrapDialog.show({
+      title: 'Guía Rápida de Usuario',
+      type: BootstrapDialog.TYPE_DEFAULT,
+      cssClass: 'guide-dialog',
+      closable: true,
+      message: function(dialog,windowR) {
+                  var $content = $('<div class="bootstrap-dialog-message"><div class="col-md-9">Espera unos segunditos... y ¡dale al play!</div><div class="col-md-3"><button class="btn btn-info btn-xs">Ir a la página de ayuda</button></div></br><iframe width="640" height="401" src="http://www.powtoon.com/embed/fMb9KeISNYs/" frameborder="0"></iframe>');
+               
+                  $content.find('button').click({dialog: dialog, windowR: windowR}, function(event) {
+                  
+                  event.data.dialog.close();
+                  window.location = "#!user-guide";
+                });
+
+                return $content;
+      }
+    });
+  };
+
+  
+  // Solo mostraremos el panel de video-ayuda al entrar desde la página de inicio
+  if (originView != "tasks-resume") {
+    // Reseteamos el valor de originViwe
+    ciclosVidaService.setOriginView("");
+    // Mostramos un modal panel nada más entrar en la aplicación con un video de ayuda para el uso de la aplicación
+     $scope.showVideoHelp(window);
+  }
 
   
   // Al enviar el formulario lo validamos y si es correcto pasamos a la ventana del flujo de actividades
@@ -46,7 +71,7 @@ app.controller('ProcessController', function($scope, $http, $sce, ciclosVida, ni
    
     if (this.form.$valid && errorArray.length === 0) {
       // Almacenamos los ciclos de vida y el código de la operación para pasarlo al controlador del flujo de actividades
-    	ciclosVidaService.set($scope.ciclosVida, $scope.operation);
+    	ciclosVidaService.set($scope.ciclosVida, $scope.operation, "");
 
       // Redirigimos a la ventana de flujo de actividades
     	window.location = "#!tasks-resume";
@@ -62,7 +87,7 @@ app.controller('ProcessController', function($scope, $http, $sce, ciclosVida, ni
 	      buttons: [{
 	                   label: 'OK',
 	                    action: function(dialogItself){
-	                    dialogItself.close();
+	                   dialogItself.close();
 	                }
 	      }]
 	    });

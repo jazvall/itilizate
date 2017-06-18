@@ -1,7 +1,8 @@
 'use strict';
 
 var app = angular.module("app", ["ngRoute","ui.bootstrap"])
-.directive('angularStarRating', angularStarRating);
+.directive('angularStarRating', angularStarRating)
+.directive('showFocus', angularShowFocus);
 
 app.config(function ($routeProvider) {
     $routeProvider.
@@ -22,7 +23,14 @@ app.config(function ($routeProvider) {
         controller: 'TasksResumeController'
     }).
     when('/user-guide', {
-        templateUrl: 'views/userguide.html'
+        templateUrl: 'views/userguide.html',
+        controller: 'userGuideController'
+    }).
+    when('/itil-guide', {
+        templateUrl: 'views/itilguide.html'
+    }).
+    when('/info', {
+        templateUrl: 'views/info.html'
     }).
     otherwise({
         redirectTo: '/welcome'
@@ -101,6 +109,17 @@ function linkFunc(scope, element, attrs, ctrl) {
         }
     });
 
+}
+
+function angularShowFocus($timeout) {
+    return function(scope, element, attrs) {
+        scope.$watch(attrs.showFocus, 
+          function (newValue) { 
+            $timeout(function() {
+                newValue && element[0].focus();
+            });
+        },true);
+    }; 
 }
 
 

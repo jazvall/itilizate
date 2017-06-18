@@ -1,5 +1,103 @@
 
-<div class="container" style="padding-top: 100px">
-	<iframe width="480" height="311" src="http://www.powtoon.com/embed/fMb9KeISNYs/" frameborder="0"></iframe>
-	<iframe width="640" height="401" src="http://www.powtoon.com/embed/fMb9KeISNYs/" frameborder="0"></iframe>
+<div class="container container-padding">
+	<!--<iframe width="480" height="311" src="http://www.powtoon.com/embed/fMb9KeISNYs/" frameborder="0"></iframe>-->
+	<p class="text-center"><img width="300" class="img-center" src="images/logoItilizate.png"></p>
+	<h3>Guía de usuario</h3>
+
+	<p>ITIlízate es una herramienta sencilla e intuitiva. Su objetivo es obtener una guía para que una organización pueda seguir las recomendaciones de ITIL de forma rápida y sin tener que modificar su estructura.</p>
+
+	<p>A continuación podemos visualizar un video con las instrucciones:</p>
+	
+	<div class="panel panel-legend" style="width: 671px;height: 430px;">
+		<div class="panel-body">
+			<p><iframe width="640" height="401" src="http://www.powtoon.com/embed/fMb9KeISNYs/" frameborder="0"></iframe></p>
+		</div>
+	</div>
+
+	<p>Para empezar a utilizar ITILízate debemos pulsar el botón <strong><em>Comenzamos</em></strong> que aparece en la página principal.</p>
+
+	<div class="panel panel-legend" style="width: 671px;height: 380px;">
+		<div class="panel-body">
+			<p class="text-center"><img width="640" class="img-center" src="images/welcome.jpg"></p>
+		</div>
+	</div>
+
+	<p>A continuación nos aparecerán los cuatro ciclos de vida (Estrategia del servicio, Diseño del servicio, Transición del servicio y Operación del servicio) con todos sus procesos. Aquí debe indicarse el grado de madurez para cada uno de ellos.</p>
+
+	<p>El grado de madurez se representa con las estrellas. Hay 5 niveles y por defecto aparecerá una estrella marcada que indica que el proceso no está identificado en tu organización.</p>
+	<p>Los 5 niveles existentes son: </p>
+	
+	<div class="panel panel-legend">
+		<div class="panel-body">
+			<div class="row" ng-repeat="nivel in nivelesMadurez">
+				<div class="col-xs-4 col-sm-2" style="width: 155px;">
+					<angular-star-rating max="5" value='nivel.id'></angular-star-rating>
+				</div>
+				<div class="col-xs-4 col-sm-2" style="width: 155px; margin-bottom: 25px;">
+					<span class="label-legend label badge-{{nivel.color}}">Nivel {{nivel.id}} - {{nivel.name}}</span>
+				</div>
+				<div class="col-xs-4 col-sm-8">
+					<span class="small">{{nivel.desc}}</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<p>Cada nivel de madurez se identifica con un color, como se aprecia en el listado anterior, dicho color quedará reflejado en la cajita de cada uno de los procesos para que sea más directa la identificación del nivel de cada proceso.</p>
+
+	<p>Cuando el nivel de madurez seleccionado para el proceso sea tres o superior, es obligatorio indicar un responsable de éste.</p>
+
+	<div class="panel panel-legend" style="width: 671px;height: 354px;">
+		<div class="panel-body">
+			<p class="text-center"><img width="640" class="img-center" src="images/procesos.jpg"></p>
+		</div>
+	</div>
+
+	<p>ITILízate se centra en los tres flujos de actividad principales de cualquier departamentos TI:
+		<ul>
+    		<li>Nuevo servicio</li>
+	    	<li>Cambios del servicio</li>
+	    	<li>Restauración del servicio</li>
+	    </ul>
+    </p>
+
+	<div class="panel panel-legend" style="width: 671px;height: 180px;">
+		<div class="panel-body">
+			 <p class="text-center"><img width="640" class="img-center" src="images/flujos.jpg"></p>
+		</div>
+	</div>
+   
+
+    <p>Por lo que una vez que hemos terminado de detallar cada uno de los procesos de todos los ciclos de vida, pulsaremos en el flujo de actividad que queremos generar.</p>
+
+    <p>A continuación nos aparecerá el listado secuencial con las actividades correspondientes al flujo seleccionado. En cada una de esas tareas se indica qué se debe hacer y los procesos y responsables involucrados en ello.</p>
+
+     <div class="panel panel-legend" style="width: 671px;height: 290px;">
+		<div class="panel-body">
+			  <p class="text-center"><img width="640" class="img-center" src="images/tareas.jpg"></p>
+		</div>
+	</div>
+
+    <p>Para comodidad del usuario dicho flujo de tareas puede descargarse en formato PDF simplemente pulsando el botón <strong><em>Descargar</em></strong>.</p>
+
+    <div class="panel panel-legend" style="width: 430px;height: 130px;">
+		<div class="panel-body">
+			  <p class="text-center"><img class="img-center" src="images/descargar.jpg"></p>
+		</div>
+	</div>
+
+    <p>Existe un menú superior donde desde cualquier parte de la aplicación siempre estarán accesibles.</p>
+    	<ul>
+    		<li>Un apartado con la documentación de <a href="#itil-guide">ITIL</a> donde podrán consultarse todos los términos involucrados.</li>
+	    	<li>Un apartado de <a href="#user-guide">ayuda</a>.</li>
+	    	<li>Un apartado de <a href="#info">¿Quiénes somos?</a>.</li>
+	    </ul>
+    </p>
+
+     <div class="panel panel-legend" style="width: 430px;height: 100px;">
+		<div class="panel-body">
+			  <p class="text-center"><img class="img-center" src="images/menu.jpg"></p>
+		</div>
+	</div>
+
 </div>
