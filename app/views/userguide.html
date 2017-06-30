@@ -31,10 +31,10 @@
 		<div class="panel-body">
 			<div class="row" ng-repeat="nivel in nivelesMadurez">
 				<div class="col-xs-4 col-sm-2" style="width: 155px;">
-					<angular-star-rating max="5" value='nivel.id'></angular-star-rating>
+					<angular-icon-rating max="nivelesMadurez.length" value='nivel.id'></angular-icon-rating>
 				</div>
 				<div class="col-xs-4 col-sm-2" style="width: 155px; margin-bottom: 25px;">
-					<span class="label-legend label badge-{{nivel.color}}">Nivel {{nivel.id}} - {{nivel.name}}</span>
+					<span class="label-legend label label-{{nivel.color}}">Nivel {{nivel.id}} - {{nivel.name}}</span>
 				</div>
 				<div class="col-xs-4 col-sm-8">
 					<span class="small">{{nivel.desc}}</span>
@@ -86,7 +86,7 @@
 		</div>
 	</div>
 
-    <p>Existe un menú superior donde desde cualquier parte de la aplicación siempre estarán accesibles.</p>
+    <p>Existe un menú superior donde desde cualquier parte de la aplicación siempre eiconán accesibles.</p>
     	<ul>
     		<li>Un apartado con la documentación de <a href="#itil-guide">ITIL</a> donde podrán consultarse todos los términos involucrados.</li>
 	    	<li>Un apartado de <a href="#user-guide">ayuda</a>.</li>

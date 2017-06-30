@@ -3,17 +3,21 @@
   padding-top: 100px
 }
 
-/* Panel Flexs*/
+.title-itil {
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
 
+/* Panel Flexs*/
 .row.is-flex {
   display: flex;
   flex-wrap: wrap;
 }
+
 .row.is-flex > [class*='col-'] {
   display: flex;
   flex-direction: column;
 }
-
 
 .is-flex .box {
   background: none;
@@ -138,35 +142,34 @@
 }
 
 
-/* Badges and Labels */
-.badge-red {
+/* labels and Labels */
+.label-red {
     background-color: #C9302C;
 }
 
-.badge-pink {
+.label-pink {
     background-color: #E238EC;
 }
 
-.badge-orange {
+.label-orange {
     background-color: #EC971F;
 }
 
-.badge-blue {
+.label-blue {
     background-color: #4682B4;
 }
 
-.badge-green {
+.label-green {
     background-color: #449D44;
 }
 
-
+/*Rating*/
 .glyphicon-star-empty {
     color: blanchedalmond;
 }
 .glyphicon-star {
     color: #FFDD00;
     -webkit-text-stroke-width: 2px;
-    /*-webkit-text-stroke-color: #FF7700;*/
 }
 
 .isReadonly {
@@ -185,6 +188,7 @@
   font-size: 25px;
 }
 
+/* Messages */
 .message-error {
   display: block;
   font-size: 12px;
@@ -193,6 +197,7 @@
   margin-top: 5px;
 }
 
+/* Cursor */
 .cursor-pinter {
   cursor:pointer;
 }
@@ -247,13 +252,11 @@
 }
 
 /* Footer */
-
 .footer {
   background-color: #EEEEEE;
   padding-top: 20px;
   margin-top: 40px;
 }
-
 
 /* Labels */
 .label-legend {
@@ -262,7 +265,6 @@
 }
 
 /* Lists */
-
 .list-group-item {
     display: list-item;
 }
@@ -273,7 +275,6 @@
 }
 
 /* Dialog */
-
 .bootstrap-dialog.type-default .modal-header {
     background-color: #19AABF;
 }
@@ -319,9 +320,4 @@ legend.scheduler-border {
     padding:0 10px;
     border-bottom:none;
     margin-top: 15px;
-}
-
-.title-itil {
-  margin-top: -30px;
-  margin-bottom: 30px;
 }

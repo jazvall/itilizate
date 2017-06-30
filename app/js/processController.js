@@ -1,6 +1,6 @@
 app.controller('ProcessController', function($scope, $http, $sce, ciclosVida, nivelesMadurez, ciclosVidaService) {
 
-	 $scope.loading = true;
+	$scope.loading = true;
   // Obtenemos el listado de los niveles de madurez
 	nivelesMadurez.list(function(nivelesMadurez) {
        $scope.nivelesMadurez = nivelesMadurez.data;
@@ -25,12 +25,6 @@ app.controller('ProcessController', function($scope, $http, $sce, ciclosVida, ni
   // Los códigos de operación son: 1 - Nuevo Servicio, 2 - Cambio de servicio, 3 - Restauración de servicio
    $scope.operation = 0;
 	
-  // Inicializamos los valores para el rating del nivel de madurez de los procesos
-	$scope.isReadonly = false;
-  $scope.changeOnHover = false; 
-  $scope.maxValue = 5; 
-
-
    // Función que muestra un modal panel con el video de ayuda del uso de la app
   $scope.showVideoHelp = function(windowR) {
    BootstrapDialog.show({
@@ -103,6 +97,17 @@ app.controller('ProcessController', function($scope, $http, $sce, ciclosVida, ni
   	});
 
   	return nivel.color;
+  };
+
+  // Obtenemos la descripción definida para el nivel de madurez actual del proceso
+  $scope.getGradoMadurezName = function(nivel) {
+    var nivel = _.find($scope.nivelesMadurez, function(item) {
+      if (item.id == nivel) {
+        return item; 
+      }
+    });
+
+    return nivel.name;
   };
 
   // Valida el formulario. Comprueba que:

@@ -14,10 +14,10 @@
 				
 					<div class="row" ng-repeat="nivel in nivelesMadurez">
 						<div class="col-xs-4 col-sm-2" style="width: 155px;">
-					     	<angular-star-rating max="maxValue" value='nivel.id'  hover='changeOnHover' is-readonly='isReadonly'></angular-star-rating>
+					     	<angular-icon-rating max="nivelesMadurez.length" value='nivel.id' is-readonly="true"></angular-icon-rating>
 					     </div>
 					     <div class="col-xs-4 col-sm-2" style="width: 155px; margin-bottom: 25px;">
-					     <span class="label-legend label badge-{{nivel.color}}">Nivel {{nivel.id}} - {{nivel.name}}</span>
+					     <span class="label-legend label label-{{nivel.color}}">Nivel {{nivel.id}} - {{nivel.name}}</span>
 					     </div>
 					     <div class="col-xs-4 col-sm-8">
 							
@@ -56,11 +56,13 @@
 									   
 									    <div class="panel-body" collapse="proceso.isCollapsed">
 									    	<div class="row" style="padding: 0px 20px 0px 20px;">
-									    	<label style="font-size: 12px;">Nivel de madurez: <!--<span class="badge badge-{{getGradoMadurezColor(proceso.nivelMadurez)}}">{{proceso.nivelMadurez}}</span>--></label>
-									    	
+									    		<label style="font-size: 12px;">Nivel de madurez: 
+									    	</div>
+									    	<div class="row" style="padding: 0px 20px 0px 5px; margin:-5px 20px 5px 0px;">
+									    		<span class="label label-{{getGradoMadurezColor(proceso.nivelMadurez)}}">{{getGradoMadurezName(proceso.nivelMadurez)}}</span></label>
 									    	</div>
 									    	<div class="row" style="padding: 0px 20px 5px 20px;">
-										    	<angular-star-rating max="maxValue" value='proceso.nivelMadurez'  hover='changeOnHover' is-readonly='isReadonly'></angular-star-rating>
+										    	<angular-icon-rating max="nivelesMadurez.length" value='proceso.nivelMadurez'  is-readonly="false"></angular-icon-rating>
 										    </div>
 										    
 											<div class="input-group" ng-show="proceso.nivelMadurez > 2"  ng-class="{ 'has-error' : !proceso.responsable != '' }">
